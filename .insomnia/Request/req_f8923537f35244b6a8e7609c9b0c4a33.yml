@@ -1,0 +1,49 @@
+_id: req_f8923537f35244b6a8e7609c9b0c4a33
+type: Request
+parentId: fld_24107ecfe1174f56a7444949d4bacca4
+modified: 1695056111349
+created: 1694650980557
+url: 127.0.0.1:8000/api/owners/update/471
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Renato sousa Botacim Gostoso",
+    	"cpf": "15558051752",
+    	"phone": "28998836236",
+    	"email": "rbotacim@gmail.com",
+    	"address": {
+    	"name": "Local",
+    	"road": "Rua das Palmas212515151",
+    	"number": 199,
+    	"district": "Venda Nova do imigrante",
+    	"complement": "Ruad sdas",
+    	"city_id": "1"
+    }
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1691125310652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

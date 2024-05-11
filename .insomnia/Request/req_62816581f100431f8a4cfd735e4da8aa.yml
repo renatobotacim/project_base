@@ -1,0 +1,29 @@
+_id: req_62816581f100431f8a4cfd735e4da8aa
+type: Request
+parentId: fld_dbfcce147bcc4c00b447549aeaedbe63
+modified: 1695130251305
+created: 1695130193920
+url: 127.0.0.1:8000/api/maps/1
+name: show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1693884150459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

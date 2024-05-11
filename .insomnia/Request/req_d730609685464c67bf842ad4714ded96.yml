@@ -1,0 +1,40 @@
+_id: req_d730609685464c67bf842ad4714ded96
+type: Request
+parentId: fld_7c50030bde2f4e9bb7da7cc547989452
+modified: 1695143601605
+created: 1695143183387
+url: 127.0.0.1:8000/api/ticket-events/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "PISTA",
+    	"event_id": 59820,
+    	"sector_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_024aa4b65ebf44948d92de21de5afa1c
+type: Request
+parentId: fld_18766e5184a44e7ca3bca0b7b52e63db
+modified: 1695063666091
+created: 1694636051157
+url: 127.0.0.1:8000/api/producers/delete/128
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 2|laravel_sanctum_Ruqgxwb9lgS9P97iCFpGuxTP6IXrKDX3kVmyBVLLbd3b5853
+  disabled: false
+metaSortKey: -1690665504034.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

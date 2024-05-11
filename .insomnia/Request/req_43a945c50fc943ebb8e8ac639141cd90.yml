@@ -1,0 +1,40 @@
+_id: req_43a945c50fc943ebb8e8ac639141cd90
+type: Request
+parentId: fld_6aa2fdcb0d0b4b6c8c184daa8f6596f8
+modified: 1694573617321
+created: 1693884841580
+url: 127.0.0.1:8000/api/users/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "marai da pesweqawpesweqawpesweqawpesweqawpesweqawpesweqawpesweqaw",
+    	"email": "rbotacim@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 42|laravel_sanctum_LUnkuMbnFtumYDO47tFBo8VKlCcGUJ5KNl8dDnZ6dfbe9543
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

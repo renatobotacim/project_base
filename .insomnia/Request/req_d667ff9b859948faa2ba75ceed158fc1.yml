@@ -1,0 +1,29 @@
+_id: req_d667ff9b859948faa2ba75ceed158fc1
+type: Request
+parentId: fld_7c50030bde2f4e9bb7da7cc547989452
+modified: 1695143653230
+created: 1695143183393
+url: 127.0.0.1:8000/api/ticket-events/delete/2
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1690665504034.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

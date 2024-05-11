@@ -1,0 +1,31 @@
+_id: req_59effe3fff914defadc6799634e21093
+type: Request
+parentId: fld_2d4a57e78e49464db825db29ea9a1b76
+modified: 1694573699523
+created: 1693838058851
+url: 127.0.0.1:8000/api/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "rbotacim@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6ff92bcd5b1d43f0ab66c648eb442f3b
+    disabled: false
+authentication: {}
+metaSortKey: -1693969862576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

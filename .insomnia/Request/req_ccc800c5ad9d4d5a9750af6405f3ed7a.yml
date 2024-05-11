@@ -1,0 +1,29 @@
+_id: req_ccc800c5ad9d4d5a9750af6405f3ed7a
+type: Request
+parentId: fld_df942da2e4ed4c7faee62269039e0a35
+modified: 1694691242752
+created: 1694650993354
+url: 127.0.0.1:8000/api/address/index
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1693884150359
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

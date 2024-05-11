@@ -1,0 +1,41 @@
+_id: req_87964d93dcad4e69bea56fedb0bd53b5
+type: Request
+parentId: fld_ac4be40000a7452199a373d96c4bee2a
+modified: 1695142676718
+created: 1695141922860
+url: 127.0.0.1:8000/api/sectors/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Max Brakus",
+    				"color": "#11c679",
+    				"points": "Ipsum et labore quod quia dolorum labore. Et expedita quo beatae placeat. Eum delectus iste saepe sit. Corporis id reiciendis ducimus iure molestiae.",
+    			"maps_id": 51
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

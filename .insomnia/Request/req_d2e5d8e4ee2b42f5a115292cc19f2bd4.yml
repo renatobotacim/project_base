@@ -1,0 +1,39 @@
+_id: req_d2e5d8e4ee2b42f5a115292cc19f2bd4
+type: Request
+parentId: fld_f2cf5befb7d74b51ac265e420df9735f
+modified: 1695064247760
+created: 1694573140809
+url: 127.0.0.1:8000/api/categories/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "pop",
+    	"status": "active"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

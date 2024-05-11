@@ -1,0 +1,47 @@
+_id: req_ec3ca951863a4f31b1b5b97a85735c63
+type: Request
+parentId: fld_e1824f1dd50d4a1a8d201f935c451e2f
+modified: 1695064044837
+created: 1694605672019
+url: 127.0.0.1:8000/api/events/update/11218
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+    		"name": "nx zero o tour da morte",
+    		"local": "asd",
+    		"date": "2023-02-12",
+    		"scheduling": "2023-02-12",
+    		"banner": "asdasdasd",
+    		"courtesies": 100,
+    		"classification": 18,
+    		"description": "Veanda Nova  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value.",
+    		"emphasis_value": "10",
+    		"emphasis_rate": "10"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 2|laravel_sanctum_Ruqgxwb9lgS9P97iCFpGuxTP6IXrKDX3kVmyBVLLbd3b5853
+  disabled: false
+metaSortKey: -1691125310652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,55 @@
+_id: req_9c44c838483d49e39b2dc23c8d792ab0
+type: Request
+parentId: fld_24107ecfe1174f56a7444949d4bacca4
+modified: 1695007773401
+created: 1694650980554
+url: 127.0.0.1:8000/api/owners/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Renato Botacim",
+    	"cpf": "15558051752",
+    	"phone": "28998836236",
+    	"email": "rbotacim@gmail.com",
+    	"banck": "nubank",
+    	"account": "12323443",
+    	"agency": "0001",
+    	"onwer_account": "renato sousa botacim",
+    	"address": {
+    	"name": "Local",
+    	"road": "Rua das Palmas",
+    	"number": 199,
+    	"district": "Venda Nova",
+    	"complement": "Ruad sdas",
+    	"city_id": "1"
+    }
+    	
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

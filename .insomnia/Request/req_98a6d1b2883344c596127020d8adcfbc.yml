@@ -1,0 +1,41 @@
+_id: req_98a6d1b2883344c596127020d8adcfbc
+type: Request
+parentId: fld_f2cf5befb7d74b51ac265e420df9735f
+modified: 1695064290688
+created: 1694573140812
+url: 127.0.0.1:8000/api/categories/update/1001
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"name": "FUNK",
+    		"status": "active",
+    		"updated_at": "2023-09-13T03:08:29.000000Z",
+    		"created_at": "2023-09-13T03:08:29.000000Z"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1691125310652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

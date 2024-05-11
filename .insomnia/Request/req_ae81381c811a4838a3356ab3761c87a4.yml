@@ -1,0 +1,42 @@
+_id: req_ae81381c811a4838a3356ab3761c87a4
+type: Request
+parentId: fld_18766e5184a44e7ca3bca0b7b52e63db
+modified: 1695063643076
+created: 1694636051146
+url: 127.0.0.1:8000/api/producers/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cnpj": "3566678222331223",
+    	"name": "infire - casa swos",
+    	"corporative_name": "inf",
+    	"state_registration": "Venda Nova",
+    	"owner_id": 474
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 2|laravel_sanctum_Ruqgxwb9lgS9P97iCFpGuxTP6IXrKDX3kVmyBVLLbd3b5853
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

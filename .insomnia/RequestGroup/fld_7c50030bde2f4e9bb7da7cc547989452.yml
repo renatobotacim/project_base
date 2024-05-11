@@ -1,0 +1,10 @@
+_id: fld_7c50030bde2f4e9bb7da7cc547989452
+type: RequestGroup
+parentId: wrk_e2f220b77adf462d96f78d63b310fd07
+modified: 1695143183377
+created: 1695143183377
+name: ticket_events
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1675696242636.6333
