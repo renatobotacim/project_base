@@ -1,0 +1,29 @@
+_id: req_6f4504d6c8674ee0884dc583792bd9a4
+type: Request
+parentId: fld_01f3942126004e75ad48b29159b4d446
+modified: 1695155846494
+created: 1695155834328
+url: 127.0.0.1:8000/api/bags/index
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1693884150359
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_96f544b7fa42494f8110260001bddb36
+type: Request
+parentId: fld_2d4a57e78e49464db825db29ea9a1b76
+modified: 1694176319345
+created: 1694142836944
+url: 127.0.0.1:8000/api/reset-password
+name: reset-password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+    	"email": "rbotacim@gmail.com",
+    	"password": "12345678rr1",
+    	"password_confirmation": "12345678rr1",
+    	"token": "c8ca6620e3f5baf2147cb123ee0fb8c43bd7f956afdf8d21e61781c90fbff257"
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6ff92bcd5b1d43f0ab66c648eb442f3b
+    disabled: false
+  - id: pair_54471b8cbdeb462e8360ee397ce7e6aa
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1693905578488.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

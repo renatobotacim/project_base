@@ -1,0 +1,44 @@
+_id: req_9d8a6b683f254f0aaa31081def819f1d
+type: Request
+parentId: fld_18766e5184a44e7ca3bca0b7b52e63db
+modified: 1695011950377
+created: 1694636051150
+url: 127.0.0.1:8000/api/producers/update/1
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"name": "infire - CASA DE SHOWS SUPREMA",
+    		"corporative_name": "infire",
+    		"state_registration": "Venda Nova",
+    		"owner_id": null,
+    		"bank": "Nubank",
+    		"agency": "",
+    		"account": ""
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 2|laravel_sanctum_Ruqgxwb9lgS9P97iCFpGuxTP6IXrKDX3kVmyBVLLbd3b5853
+  disabled: false
+metaSortKey: -1691125310652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

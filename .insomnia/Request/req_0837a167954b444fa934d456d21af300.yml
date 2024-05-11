@@ -1,0 +1,29 @@
+_id: req_0837a167954b444fa934d456d21af300
+type: Request
+parentId: fld_db615eecb7624db9939b4776dc854415
+modified: 1695152388598
+created: 1695152121484
+url: 127.0.0.1:8000/api/batchs/1
+name: show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1693884150459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_8eeb45ecfeae49ed8343ba052b588c37
+type: Request
+parentId: fld_e1824f1dd50d4a1a8d201f935c451e2f
+modified: 1695144936874
+created: 1694605672015
+url: 127.0.0.1:8000/api/events/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Show Nacional - baile do chece Mc donalds",
+    	"local": "asd",
+    	"address": "Venda Nova",
+    	"date": "2023-09-21",
+    	"scheduling": "2023-02-12",
+    	"banner": "asdasdasd",
+    	"courtesies": 100,
+    	"classification": 18,
+    	"description": "Veanda Nova  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value  General error: 1364 Field 'event' doesn't have a default value.",
+    	"emphasis_value": "1000",
+    	"address_id": 182,
+    	"category_id": 2891,
+    	"producer_id": 52
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

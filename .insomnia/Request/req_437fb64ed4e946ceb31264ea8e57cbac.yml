@@ -1,0 +1,28 @@
+_id: req_437fb64ed4e946ceb31264ea8e57cbac
+type: Request
+parentId: fld_2d4a57e78e49464db825db29ea9a1b76
+modified: 1694172662112
+created: 1693838058853
+url: 127.0.0.1:8000/api/logout
+name: logout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: 33|laravel_sanctum_xsApQNj1XZeWSTeqyndMWvAHIeChPaZbyXRmqMAEb534e343
+  disabled: false
+metaSortKey: -1693969862676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

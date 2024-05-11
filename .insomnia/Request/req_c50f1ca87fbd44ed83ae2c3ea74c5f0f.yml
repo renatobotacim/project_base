@@ -1,0 +1,43 @@
+_id: req_c50f1ca87fbd44ed83ae2c3ea74c5f0f
+type: Request
+parentId: fld_db615eecb7624db9939b4776dc854415
+modified: 1695152316592
+created: 1695152121487
+url: 127.0.0.1:8000/api/batchs/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    				"batch": "B6RBOI494Y66P2T",
+    				"value": "715.00",
+    				"rate": "71.50",
+    				"amount": 564,
+    				"date_limit": "2023-09-20 18:35:44",
+    				"ticket_event_id": 60
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

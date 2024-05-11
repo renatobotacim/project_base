@@ -1,0 +1,34 @@
+_id: req_83b4c27bba384ba984cc573f8da53183
+type: Request
+parentId: fld_2d4a57e78e49464db825db29ea9a1b76
+modified: 1693971382202
+created: 1693969885475
+url: 127.0.0.1:8000/api/auth/google/redirect
+name: loginSocial
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: true
+  - id: pair_26dcd4b6226741de98c7636d6fcd4f0c
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: 26|laravel_sanctum_pZS3SQVfbZVAwuBHX0A3xGgI1tIE1EmKur9eB3q9b501d368
+  disabled: false
+metaSortKey: -1693969862626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

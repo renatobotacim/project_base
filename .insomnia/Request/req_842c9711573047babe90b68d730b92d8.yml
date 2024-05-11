@@ -1,0 +1,43 @@
+_id: req_842c9711573047babe90b68d730b92d8
+type: Request
+parentId: fld_df942da2e4ed4c7faee62269039e0a35
+modified: 1694748593127
+created: 1694650993365
+url: 127.0.0.1:8000/api/address/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Local",
+    	"road": "Rua das Palmas",
+    	"number": 199,
+    	"district": "Venda Nova",
+    	"complement": "Ruad sdas",
+    	"city_id": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67800047680c4a9fb9e9eb4cccc7a12a
+    disabled: false
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_5wvUrrXbSLZnXrGtdzizvu09WcwSDd4rNe8kvZQk2a562b8a
+  disabled: false
+metaSortKey: -1692044923888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

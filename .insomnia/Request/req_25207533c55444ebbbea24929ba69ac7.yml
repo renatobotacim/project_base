@@ -1,0 +1,49 @@
+_id: req_25207533c55444ebbbea24929ba69ac7
+type: Request
+parentId: fld_01f3942126004e75ad48b29159b4d446
+modified: 1695298688374
+created: 1695155876589
+url: 127.0.0.1:8000/api/bags/start
+name: start
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "bag":"C8U36I7G4809AW9",
+       "expires_at":"2023-09-19 21:07:17",
+       "itens":[
+          {
+    							  "id":"1",
+             "batch":"B6RBOI494Y66PTT",
+             "qtd":1
+          },
+          {
+    									"id":"1",
+             "batch":"B6RBOI494Y66PTT",
+             "qtd":2
+          }
+       ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_78ada341048d4bf3974d34eee290c44b
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: 1|laravel_sanctum_uDagHrbCbADV146rO27OtQ8naSrNofsDEO0vwidm09bbe9cc
+  disabled: false
+metaSortKey: -1693424343741.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
